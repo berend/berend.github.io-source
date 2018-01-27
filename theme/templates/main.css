@@ -1,0 +1,274 @@
+/* Main Primary color */
+body {
+  margin: 0;
+  padding: 0;
+  font: 15px 'Open Sans Condensed', sans-serif;
+  line-height: 1.6em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #4E996F;
+  text-decoration: none;
+}
+a:hover {
+  color: #4E996F;
+  text-decoration: underline;
+}
+header.main-header {
+  max-width: 700px;
+  margin-bottom: 0px;
+}
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 100;
+  font-size: 1.4em;
+}
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+h3,
+h4 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 0.9em;
+}
+article {
+  margin: 0;
+}
+article header {
+  margin-bottom: 20px;
+}
+article header h1 {
+  margin-bottom: 2px;
+}
+article header time {
+  color: #9E9E9E;
+  font: 0.85em 'Open Sans Condensed', sans-serif;
+  float: right;
+}
+article header time.left {
+  color: #9E9E9E;
+  font-size: 0.85em;
+  float: left;
+}
+article p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+article ul,
+article ol {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+article li {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+article a:hover {
+  text-decoration: underline;
+}
+article blockquote {
+  border-left: 2px solid #c7c7cc;
+  color: #666;
+  margin: 30px 0;
+  padding: 0 0 0 25px;
+}
+article img {
+  max-width: 100%;
+}
+article code {
+  color: #333;
+  background-color: #EEE;
+  border-radius: 0;
+  font-size: 13px;
+}
+article .codehilite pre {
+  border-radius: 0;
+  background-color: #202020;
+  color: #d0d0d0;
+}
+article .codehilite pre code {
+  border: none;
+}
+article .codehilite pre.bash {
+  background-color: #000;
+  color: #FFF;
+}
+article .meta {
+  font-size: 11px;
+}
+article .meta a:hover {
+  text-decoration: none;
+}
+article .meta div {
+  margin-bottom: 20px;
+  display: block;
+}
+article .meta a.tag {
+  margin: 0 10px 10px 0;
+  padding: 1px 12px;
+  display: inline-block;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.05);
+}
+article .meta a.tag:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+article .meta a.read_more,
+article .meta a.comments_btn {
+  font-size: 12px;
+  font-weight: 200;
+  padding: 5px 5px;
+  color: #4E996F;
+  background: #FFF;
+  border: 1px solid #4E996F;
+}
+article .meta a.read_more:hover,
+article .meta a.comments_btn:hover {
+  color: #FFF;
+  background: #28794B;
+}
+.index {
+  max-width: 700px;
+}
+.index article header {
+  font-family: "Fredericka the Great", Garamond, Georgia, serif;
+  font-weight: 400;
+}
+.index article header h2 {
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+.index article header h2 a {
+  color: #000;
+}
+.index article header h2 a:hover {
+  color: #4E996F;
+  text-decoration: none;
+}
+.index .separator {
+  padding: 40px 0 0 0;
+  margin: 0 0 40px 0;
+  height: 10px;
+  border-bottom: solid 1px #CCC;
+}
+.index .pagination {
+  display: block;
+  margin-bottom: 100px;
+}
+.index .pagination .left {
+  text-align: right;
+}
+.index .pagination .right {
+  text-align: left;
+}
+.index .pagination a {
+  display: inline-block;
+  border: 2px solid #007EE5;
+  margin: 0 5px;
+  padding: 8px 20px;
+  font-weight: bold;
+  color: #007EE5;
+}
+.index .pagination a:hover {
+  color: #FFF;
+  background: #007EE5;
+}
+.post {
+  max-width: 700px;
+}
+.post header {
+  font-family: "Fredericka the Great", Garamond, Georgia, serif;
+  font-weight: 100;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.text_cell .prompt {
+  display: none;
+}
+div.cell {
+  padding: 0;
+}
+div.text_cell_render {
+  padding: 0;
+}
+div.prompt {
+  font-size: 13px;
+}
+div.input_prompt {
+  padding: .7em 0.2em;
+}
+div.output_prompt {
+  padding: .4em .2em;
+}
+div.input_area {
+  margin: .2em 0.4em;
+  max-width: 580px;
+}
+table.dataframe {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+table.dataframe th,
+td {
+  padding: 4px;
+  text-align: left;
+}
+pre code {
+  background-color: inherit;
+}
