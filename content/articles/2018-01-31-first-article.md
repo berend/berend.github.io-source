@@ -4,7 +4,7 @@ slug: first-article
 tags: blog, restart
 
 
-Welcome to this blog! This article is about why and how.
+Welcome to this blog! This post is about why and how.
 
 
 ## Why?

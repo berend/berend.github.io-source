@@ -17,16 +17,16 @@ CODE_DIR = 'resources/code'
 MARKUP = ['md']
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = [
-    'ipynb.liquid',  # for embedding notebooks
-    'liquid_tags.img',  # embedding images
-    'liquid_tags.video',  # embedding videos
-    'liquid_tags.include_code',  # including code blocks
+    'ipynb.liquid',
+    'liquid_tags.video',
+    'liquid_tags.img',
     'liquid_tags.literal',
+    'liquid_tags.include_code',
 ]
 
 IGNORE_FILES = ['.ipynb_checkpoints']
 
-#will be overwritten in publishconf.py
+
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -36,7 +36,9 @@ AUTHOR_FEED_RSS = None
 
 THEME = './theme/'
 
-ABOUT_PAGE = './pages/about.html'
+ABOUT_PAGE = '/pages/about.html'
+IMPRESSUM = '/pages/impressum.html'
+LICENSE = '/pages/license.html'
 TWITTER_USERNAME = 'berendkapelle'
 GITHUB_USERNAME = 'berend'
 AUTHOR_BLOG = 'http://berend.github.io'
@@ -44,10 +46,6 @@ RELATIVE_URLS = True
 ENABLE_MATHJAX = True
 
 STATIC_PATHS = ['images', 'resources', 'favicon.ico']
-
-LICENSE_URL = "https://raw.githubusercontent.com/berend/berend.github.io-source/master/LICENSE"
-LICENSE = "MIT"
-
 
 MARKDOWN = {
     'extension_configs': {

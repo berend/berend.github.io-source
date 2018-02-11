@@ -18,7 +18,5 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 FEED_USE_SUMMARY = True  # from the feed_summary plugin
 
-DELETE_OUTPUT_DIRECTORY = True
-
 GOOGLE_ANALYTICS = "UA-112772612-1"
 GOOGLE_ANALYTICS_DOMAIN = "https://berend.github.io"
