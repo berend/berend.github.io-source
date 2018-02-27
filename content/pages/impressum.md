@@ -1,5 +1,5 @@
 title: Impressum
-slug: Impressum
+slug: impressum
 Template: about
 
 ## Impressum
