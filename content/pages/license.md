@@ -1,6 +1,6 @@
 title: License
-slug: License
 Template: about
+slug: license
 
 MIT License
 

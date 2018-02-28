@@ -43,9 +43,7 @@
                             {% if SHOW_ARCHIVES %}
                                 <li><a href="/archives.html" title="Archive">Archive</a></li>
                             {% endif %}
-                            {% if SHOW_FEED %}
-                                <li><a href="/feeds/all.atom.xml" title="danielfrg.github.io RSS feed" rel="me">RSS</a></li>
-                            {% endif %}
+
                         </ul>
                     </nav>
                 </div>
@@ -56,6 +54,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{ IMPRESSUM }}" title="Impressum">Impressum</a></li>
                     <li><a href="{{ LICENSE }}" title="License">License</a></li>
+                    {% if SHOW_FEED %}
+                    <li><a href="/feeds/all.atom.xml" title="RSS feed" rel="me"><i class="fas fa-rss"></i> RSS</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

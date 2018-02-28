@@ -37,7 +37,7 @@ AUTHOR_FEED_RSS = None
 THEME = './theme/'
 
 ABOUT_PAGE = '/pages/about.html'
-IMPRESSUM = '/pages/impressum.html'
+IMPRESSUM = '/pages/Impressum.html'
 LICENSE = '/pages/license.html'
 TWITTER_USERNAME = 'berendkapelle'
 GITHUB_USERNAME = 'berend'
@@ -57,3 +57,7 @@ MARKDOWN = {
 }
 
 ENABLE_MATHJAX = True
+SHOW_FEED = True
+
+GOOGLE_ANALYTICS = "UA-112772612-1"
+GOOGLE_ANALYTICS_DOMAIN = "https://berend.github.io"

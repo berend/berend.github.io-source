@@ -2,6 +2,7 @@ Title: Some words about this blog
 date: 2018-01-30
 slug: first-article
 tags: blog, restart
+summary: Welcome to this blog! This post is about why and how.
 
 
 Welcome to this blog! This post is about why and how.
@@ -9,7 +10,7 @@ Welcome to this blog! This post is about why and how.
 
 ## Why?
 
-I like learning new stuff. In my opinion learning works best if you can teach or describe what you learnt to others.
+I like learning new stuff. In my opinion the best way to learn is to teach.
 This is what I try to do here.
 
 
@@ -24,7 +25,6 @@ If you want the details, the source for these websites is a github repo (a prere
 
 The repo that hold the source files tht pelican turns into static web pages, can be found [here](https://www.github.com/berend/berend.github.io-source).
 If you find any errors or have comments, enhancements or tips, issues or pull requests are very welcome in this repo.
-
 
 
 ## Some shoutouts
