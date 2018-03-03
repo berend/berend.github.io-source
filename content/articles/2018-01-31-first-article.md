@@ -29,8 +29,12 @@ If you find any errors or have comments, enhancements or tips, issues or pull re
 
 ## Some shoutouts
 
-I like to add a list of opensource project that are being used to generate this blog
+All my work here is not possible without other doing more, better and inspirational work before I
+came along. I am standing on the shoulders of giants here, thus I like to add a list of opensource
+project that are being used to generate this blog.
 
 * [Jupyter Notebook](https://jupyter.org/)
 * [pelican & plugins](https://blog.getpelican.com/)
 * [Numpy](http://www.numpy.org/) and [Pandas](https://pandas.pydata.org/)
+
+There are many more I use, but I use these the most for this blog.
